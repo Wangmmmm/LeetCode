@@ -1,5 +1,6 @@
 class Solution {
 public:
+	//两层遍历
     int lengthOfLongestSubstring(string s) {
         int maxVal=0;
 		for(int i=0;i<s.length();i++)
